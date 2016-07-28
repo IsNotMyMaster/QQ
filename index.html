@@ -9,13 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shop Item - Start Bootstrap Template</title>
+    <title>Auto Shop</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <!-- Custom CSS -->
-    <link href="css/shop-item.css" rel="stylesheet">
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,9 +29,33 @@
     <![endif]-->
 
 </head>
-
 <body>
+<div class="back-to-top">
+        <a class="smoothScroll btp" href="#gotop"></a>     
+        </div>
+    <div class="top-spot-head" id="gotop">
+    <div class="container ">
+    <div class="row top-spot">
+            <div class="col-md-3 top-item" >
+                <a href="#">
+                    <img src="images/logo/terror.jpg" class="img-circle" alt="Логотип" title="Логотип автосалона">
+                    </a>
+            </div>
+            <div class="col-md-6 top-item">
+            
+            <h2>Мы найдем дорогу, но если нам это не удастся, мы построим ее сами.</h2>
+            <p>Ищешь топ спот, чтобы купить авто? Устал от постоянного прессинга лгунов? Тогда тебе к нам. 
+            Ведь только у нас есть все и даже больше, что ты искал. TERROR - тот самый случай, когда рай невероятно близко.</p>
+         
+            </div>
+            <div class="col-md-3 top-item">
+                <span class="velcom"><a href="tel:+375291488228">+375 (29) 148-82-28</a></span>
+                <span class="velcom two"><a href="tel:+375296975234">+375 (29) 133-74-04</a></span>
 
+            </div>
+            </div>
+    </div>
+    </div>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -39,19 +67,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+ 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav col-md-12">
+                    <li class="list-nav col-md-3">
+                        <a class="links smoothScroll" href="#">Home</a>
                     <li>
-                        <a href="#">About</a>
+                    <li class="list-nav col-md-3">
+                        <a class="links smoothScroll" href="#">About</a>
                     </li>
-                    <li>
-                        <a href="#">Services</a>
+                    <li class="list-nav col-md-3">
+                        <a class="links smoothScroll" href="#">Services</a>
                     </li>
-                    <li>
-                        <a href="#">Contact</a>
+                    <li class="list-nav col-md-3">
+                        <a class="links smoothScroll" href="#podval">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -60,121 +91,323 @@
         <!-- /.container -->
     </nav>
 
+    </header>
+
     <!-- Page Content -->
+<div class="container  tovari">
+<div class="container">
+<div class="row">
+    <p class="lead">Автосалон "TERROR"</p>
+</div>
+</div>
     <div class="container">
+
 
         <div class="row">
 
-            <div class="col-md-3">
-                <p class="lead">Shop Name</p>
+
+                        <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#" class="list-group-item active">Category 1</a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">Category 3</a>
+
+                <ul class="base">
+                   <li > <a href="#" class="list-group-item ">Mersedes</a>
+                   <ul class="sub" >
+                       <li class="l-g-i"><a href="#" class="list-group-item ">Category 1</a></li>
+                       <li class="l-g-i"> <a href="#" class="list-group-item ">Category 1</a></li>
+                       <li class="l-g-i"> <a href="#" class="list-group-item ">Category 1</a></li>
+                   </ul>
+                   </li>
+                   <li> <a href="#" class="list-group-item ">BMW</a>
+                   <ul class="sub" >
+                       <li class="l-g-i"><a href="#" class="list-group-item ">Category 1</a></li>
+                       <li class="l-g-i"> <a href="#" class="list-group-item ">Category 1</a></li>
+                       <li class="l-g-i"> <a href="#" class="list-group-item ">Category 1</a></li>
+                   </ul>
+                   </li>
+                    <li> <a href="#" class="list-group-item ">Toyota</a>
+                   <ul class="sub" ">
+                       <li><a href="#" class="list-group-item ">Category 1</a></li>
+                       <li> <a href="#" class="list-group-item ">Category 1</a></li>
+                       <li> <a href="#" class="list-group-item ">Category 1</a></li>
+                   </ul>
+                   </li>
+                    </ul>
                 </div>
             </div>
+                <div class="col-md-9">
 
-            <div class="col-md-9">
+                <div class="row">
+                
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/cars/bmw-x6-01.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$24.99</h4>
+                                <h4><a href="#">First Product</a>
+                                </h4>
+                                <p><span class="article">See more snippets like this online store item at </span><a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/800x300" alt="">
-                    <div class="caption-full">
-                        <h4 class="pull-right">$24.99</h4>
-                        <h4><a href="#">Product Name</a>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/cars/audi.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$64.99</h4>
+                                <h4><a href="#">Second Product</a>
+                                </h4>
+                                <p><span class="article">This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </span>
+                                </p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/cars/bmw-x5.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$74.99</h4>
+                                <h4><a href="#">Third Product</a>
+                                </h4>
+                                <p><span class="article">This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </span></p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">31 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/cars/bmw-z5.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$84.99</h4>
+                                <h4><a href="#">Fourth Product</a>
+                                </h4>
+                                <p><span class="article">This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">6 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/cars/mercedes-benz.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$94.99</h4>
+                                <h4><a href="#">Fifth Product</a>
+                                </h4>
+                                <p><span class="article">This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <h4><a href="#">You found a bug?</a>
                         </h4>
-                        <p>See more snippets like these online store reviews at <a target="_blank" href="http://bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                        <p>Want to make these reviews work? Check out
-                            <strong><a href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this building a review system tutorial</a>
-                            </strong>over at maxoffsky.com!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    </div>
-                    <div class="ratings">
-                        <p class="pull-right">3 reviews</p>
-                        <p>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            4.0 stars
-                        </p>
-                    </div>
-                </div>
-
-                <div class="well">
-
-                    <div class="text-right">
-                        <a class="btn btn-success">Leave a Review</a>
+                        <p>If something doesn't work, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this link</a> for fix this error!</p>
+                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">Report</a>
                     </div>
 
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">10 days ago</span>
-                            <p>This product was great in terms of quality. I would definitely buy another!</p>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">12 days ago</span>
-                            <p>I've alredy ordered another one!</p>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">15 days ago</span>
-                            <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
-                        </div>
-                    </div>
+                    <div class="center">
+  <ul class="pagination">
+    <li><a href="#">«</a></li>
+    <li><a href="#">1</a></li>
+    <li><a class="active" href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+    <li><a href="#">»</a></li>
+  </ul>
+</div>
 
                 </div>
 
             </div>
-
         </div>
 
     </div>
+    </div>
+
+                       <div class="row carousel-holder">
+
+                <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="images/logo/porsche_logo.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="images/logo/bmw_logo.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="images/logo/mercedes_logo.jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+    <div class="top-spot-bottom">
+    <div class="container">
+        <h2>Автомобили на любой вкус по привлекательным ценам</h2><hr>
+        <p>Автомобиль мечты есть практически у каждого. Однако бывает, что под влиянием той или иной финансовой ситуации позволить его себе невозможно. И все же это не повод отчаиваться! Осуществление Ваших желаний намного ближе, чем кажется: достаточно оформить кредит – и стать владельцем нового автомобиля уже сегодня.
+
+"Центральный" автосалон в Москве - это выгодные цены на все новые и подержанные авто из каталога, адреса, телефоны и отзывы покупателей. Благодаря нашему сервису любой клиент всегда сможете подобрать именно тот автомобиль, который соответствует всем его требованиям, начиная от комплектации и заканчивая ценой. Наши менеджеры предложат Вам как новые модели, так и подержанные авто с большими скидками, а также в кредит на отличных условиях. Помимо этого, Вы с легкостью сможете обменять свою старую машину на современную, и свежую модель 2016 года выпуска. Ну и конечно, большой выбор подержанных автомобилей с пробегом (б/у) самого разного ценового диапазона, пробега и года выпуска. Для того, чтобы забронировать любую машину, просто воспользуйтесь специальной формой оценки и через некоторое время наши менеджеры назовут объективную цену Вашего авто. Останется лишь приехать к нам, оформить договор и уехать на новеньком автомобиле!К Вашим услугам – выгодные программы кредитования от 26 солидных российских банков, которые предлагает крупнейший автосалон Москвы «Центральный». Условия предоставления займа Вас приятно удивят: лояльные процентные ставки от 4,5% и удобный график выплат сделают погашение максимально комфортным. Оформляя запрос на кредит нового или подержанного авто у официального дилера, Вы можете не волноваться: наши партнеры одобряют заявки более чем в 95% случаев! 
+
+<p>Собираетесь поменять автомобиль, но Вам сложно найти время на предпродажную подготовку и поиск покупателей для Вашей машины? Тогда участие в программе Trade-In официального дилера «Центральный» в Москве – это именно то, что Вам нужно! Сдавая старый автомобиль в наш салон в качестве части оплаты за новый, Вы минуете этап непосредственной продажи, который может затянуться надолго – и значительно экономите свои силы и средства.<p>
+
+<p>Мы заботимся о выгодных условиях покупки для Вас: оценка автомобиля в полном соответствии с его рыночной стоимостью и весьма приятная дополнительная скидка позволят Вам стать владельцем новой модели авто с максимальной выгодой для собственного бюджета. Скорость оформления документов Вас также порадует: всего лишь 30 минут – и Вы можете покинуть салон за рулем нового авто!<p>
+
+<p>Безупречная репутация и сотни положительных отзывов – наша особая гордость, и сегодня стать одним из благодарных клиентов можете и Вы! Обращайтесь в крупнейший автосалон в Москве «Центральный» - и удачных Вам дорог! Наш адрес на картах и телефоны можно найти на странице «Контакты»!</p>
+<div class="row ">
+<div class="row-bot col-md-12">
+</div>
+  </div>
+    </div>
+   
+    </div>
     <!-- /.container -->
 
-    <div class="container">
+    <div class="podval" id="podval">
+    <div class="container ">
 
-        <hr>
+       
 
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                <div class="col-md-4">
+                    <h3>Как с нами связаться</h3><hr>
+                    <div class="text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p>
+                        <small>Minsk, Pobediteley, 47<br/>
+                        corp.1, 244<br/>
+                        Republic of Belarus</small>
+                    </p>
+                    <p>
+                        <small>Tel. 1488-228<br/>
+                        Mail. Hello@coolfolks.com<br/>
+                        Skype. merc2441994
+                    </p>
+                    </div>
                 </div>
+                <div class="col-md-4 ">
+                    <h3>Бренды</h3><hr>
+                    <div class="text">
+                    <div class="brends col-md-6">
+                    <ul>
+                        <li><a href="#">Porsche</a></li>
+                        <li><a href="#">BMW</a></li>
+                        <li><a href="#">Mercedes</a></li>
+                    </ul>
+                    </div>
+                    <div class="brends col-md-6">
+                    <ul>
+                        <li><a href="#">Mitishi</a></li>
+                        <li><a href="#" ="#">Audi</a></li>
+                        <li><a href="#">Toyota</a></li>
+                        <li><a href="#">Nissan</a></li>    
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <h3>Обратная связь</h3><hr>
+                        <form role="form">
+                      <div class="form-group">
+                        <label for="exampleInputName1">Your Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        <label for="exampleInputText1">Message</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                      </div>
+                      <button type="mit" class="btn btn-default">mit</button>
+                    </form>
+                </div>    
+
             </div>
+   </div>
+   <div class="col-md-12 podval-menu" >
+   <div class="col-md-4">
+<p  style="float:left">All rights reserved</p>
+</div>
+    <span class="col-md-4">
+<a href="#" ><i class="fa fa-facebook"></i></a>
+<a href="#" ><i class="fa fa-twitter"></i></a>
+<a href="#" ><i class="fa fa-dribbble"></i></a>
+<a href="#" ><i class="fa fa-envelope"></i></a>
+</span>
+<div class="col-md-4">
+<p  style="float:right">Минск 2016, авто-салон "Террор</p></div>
+    </div>
         </footer>
 
-    </div>
+ </div>
     <!-- /.container -->
 
     <!-- jQuery -->
@@ -182,6 +415,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
 
 </body>
 
