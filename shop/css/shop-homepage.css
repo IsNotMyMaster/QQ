@@ -1,0 +1,276 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+     height: auto;
+     background: url(../images/logo/cars-wallpapers.jpg) no-repeat fixed;
+     background-size: 100%;
+     overflow-x: hidden;
+     font-family: 'Candal', sans-serif;
+
+}
+
+
+
+.container{
+    background-image: url(images/logo/fon.jpg) 100% 100%;
+
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-rol,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+  
+}
+
+.thumbnail:hover{
+     -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+box-shadow: 0 0 20px rgba(255,0,0,0.5);
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.ratings p{
+  color: #E43A3A;
+}
+
+.thumbnail {
+    padding: 0;
+        -webkit-transition: all .3s ease-out;  
+  -moz-transition: all .3s ease-out;  
+  -o-transition: all .3s ease-out;  
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+.top-spot{
+  padding-top:10px;
+}
+
+.velcom{
+    display: block;
+    text-align: center;
+    background: url(../images/favicon.ico) no-repeat 0 6px;
+}
+
+.velcom a{
+       font-size: 20px;
+    color:#EAE1E1;
+}
+
+.top-item{
+    margin: 10px 0;
+}
+
+
+.list-nav{
+    text-align: center;
+    font-size: 20px;
+}
+
+ul.navbar-nav li a.smoothScroll:hover {
+     background: linear-gradient(141deg, #30332E 0%, #4C4D4C 51%, #282A28 75%);
+     color:red;
+}
+
+img{
+    height: 200px;
+    min-width: 200px;
+    
+}
+
+img.img-circle{
+  -webkit-transition: all 1s ease-out;  
+  -moz-transition: all 1s ease-out;  
+  -o-transition: all 1s ease-out;  
+}
+
+a img.img-circle:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+box-shadow: 0 0 20px rgba(255,0,0,0.5);
+}
+
+
+
+.brends{
+    display: block;
+}
+
+h3{
+    text-align: center;
+}
+
+div.text{
+  font-size: 16px;
+}
+
+.tovari{
+   background: linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0,0,0,1));
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.podval{
+    background-color: #222;
+    color:#fff;
+}
+
+.top-spot-head{
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0,0,0,1));
+}
+
+.top-spot-bottom{
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.8), rgba(0,0,0,1));
+}
+
+div.brends li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+div.podval-menu {
+  background-color: black;
+}
+
+#image{
+  height: auto;
+  max-width: 100%;
+}
+
+a{
+   -webkit-transition: all 10s ease-out;  
+  -moz-transition: all 10s ease-out;  
+  -o-transition: all 10s ease-out;  
+}
+
+span.article{
+  color:#766F6F;
+}
+
+
+
+
+ul.sub {
+    display: none;
+}
+
+ul.base li:hover ul.sub{
+  display: block;
+}
+
+.base{
+  max-width: auto;
+  margin: 0 auto;
+}
+
+a.list-group-item:hover {
+  background-color: red;
+}
+
+.btp{
+  display: inline-block;
+  border: 15px solid transparent; 
+  border-bottom: 20px solid #73bfe6;
+}
+
+.back-to-top{
+  position: relative;
+  background: #363d42;
+  background-position: bottom left;
+    border:2px double #73bfe6;
+    color: #73bfe6;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    opacity: 0.7;
+    padding: 0;
+    text-align: center;
+    transition: 1s;
+    position: fixed; right: 0%; top: 90%;
+    right: 24px;
+
+    z-index: 999;
+    display: inline-block;
+    font-weight: normal;
+    cursor: pointer;
+    display: block;
+}
+
+.back-to-top:hover .btp{
+   border: 15px solid transparent; 
+  border-bottom: 20px solid red;
+}
+
+.back-to-top:hover{
+    border:2px double red;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: black;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+div.center {text-align: center;}
+
